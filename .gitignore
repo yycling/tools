@@ -1,0 +1,9 @@
+*.__pycache__
+*.log
+*.pyc
+*.idea
+*.DS_Store
+*.pid
+*.rdb
+/venv
+/migrations
