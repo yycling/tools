@@ -307,7 +307,7 @@
     //2.url解码
     function url_decode() {
         var url_result_str = document.getElementById('url_raw').value;
-        document.getElementById("url_result").value = decodeURI(url_result_str);
+        document.getElementById("url_result").value = decodeURIComponent(url_result_str);
     }
 
     //1.md5加密
